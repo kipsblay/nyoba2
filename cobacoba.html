@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biznet Home Clone</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #002147;
+            padding: 15px 50px;
+        }
+
+        .logo img {
+            height: 50px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+            transition: 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ff9900;
+        }
+
+        .hero {
+            background: url('https://www.biznethome.net/images/banner.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 150px 20px;
+        }
+
+        .hero h1 {
+            font-size: 2.8em;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            font-weight: 300;
+        }
+
+        .cta-button {
+            background-color: #ff9900;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            font-size: 1em;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: #cc7a00;
+        }
+
+        .products {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            padding: 60px 10px;
+            flex-wrap: wrap;
+            background-color: #ffffff;
+        }
+
+        .product {
+            background-color: white;
+            padding: 25px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            width: 30%;
+            min-width: 280px;
+            transition: 0.3s;
+        }
+
+        .product:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .product img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .product h2 {
+            color: #002147;
+            margin-top: 15px;
+            font-size: 1.4em;
+        }
+
+        .product p {
+            color: #666;
+            font-size: 1em;
+        }
+
+        .product a {
+            background-color: #002147;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 15px;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .product a:hover {
+            background-color: #004494;
+        }
+
+        footer {
+            background-color: #002147;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+            font-size: 14px;
+            font-weight: 300;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://www.biznethome.net/images/logo.png" alt="Biznet Home">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Beranda</a></li>
+                <li><a href="#">Paket & Harga</a></li>
+                <li><a href="#">Promo</a></li>
+                <li><a href="#">Coverage</a></li>
+                <li><a href="#">Dukungan</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Internet Cepat untuk Kebutuhan Keluarga Anda</h1>
+            <p>#PakeBiznet untuk pengalaman terbaik</p>
+            <a href="#" class="cta-button">Lihat Paket</a>
+        </div>
+    </section>
+
+    <section class="products">
+        <div class="product">
+            <img src="https://www.biznethome.net/images/internet.jpg" alt="Biznet Home Internet">
+            <h2>Biznet Home Internet</h2>
+            <p>Kecepatan stabil untuk aktivitas online</p>
+            <a href="#">Selengkapnya</a>
+        </div>
+        <div class="product">
+            <img src="https://www.biznethome.net/images/gamers.jpg" alt="Biznet Home Gamers">
+            <h2>Biznet Home Gamers</h2>
+            <p>Koneksi tanpa lag untuk para gamer</p>
+            <a href="#">Selengkapnya</a>
+        </div>
+        <div class="product">
+            <img src="https://www.biznethome.net/images/iptv.jpg" alt="Biznet IPTV">
+            <h2>Biznet IPTV</h2>
+            <p>Hiburan TV berkualitas tinggi</p>
+            <a href="#">Selengkapnya</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Biznet Home Clone. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
